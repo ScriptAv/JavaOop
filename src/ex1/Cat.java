@@ -7,8 +7,12 @@ public class Cat {
     String name;
     int age;
     boolean isMale;
-    Tail tail
+    Tail tail;// композиция
+    Talisman talisman;// агрегация
     void voice(){
         System.out.println("myau");
+    }
+    Cat(){
+        System.out.println("dgfbtg");
     }
 }
