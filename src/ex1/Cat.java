@@ -27,4 +27,10 @@ public class Cat {
 //    Cat(){
 //        System.out.println("dgfbtg");
 //    }
+
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 }
