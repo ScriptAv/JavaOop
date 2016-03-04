@@ -12,7 +12,19 @@ public class Cat {
     void voice(){
         System.out.println("myau");
     }
-    Cat(){
-        System.out.println("dgfbtg");
+
+    void about() {
+        String s = "name='" + name + '\'' +
+                ", age=" + age +
+                ", isMale=" + isMale +
+                ", tail=" + tail +
+                ", talisman=" + talisman +
+                '}';
+        System.out.println(s);
     }
+
+    // конструктор
+//    Cat(){
+//        System.out.println("dgfbtg");
+//    }
 }
