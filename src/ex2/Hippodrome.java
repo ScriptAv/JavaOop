@@ -16,6 +16,9 @@ public class Hippodrome {
         for (int i = 0; i < horses.length; i++) {
             horses[i] = new Horse();
             horses[i].name = "Буцифал " + i;
+            horses[i].age = 1 + random.nextInt(10);
+            horses[i].speed = 1 + random.nextInt(100);
+            horses[i].isMale = random.nextBoolean();
         }
 
         for (Horse horse : horses) {

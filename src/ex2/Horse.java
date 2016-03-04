@@ -16,11 +16,11 @@ public class Horse {
 
     void about(){
         String sex = (isMale) ? "Male" : "Fenale";// тернарный оператор
-        System.out.printf("name: %s, age: %d, sex: %s", name, age, sex);
+        System.out.printf("name: %s, age: %d\t, sex: %s \t", name, age, sex);
     }
 
     void ride(){
         about();
-        System.out.println("riding at speed" + speed);
+        System.out.println(" riding at speed " + speed);
     }
 }
