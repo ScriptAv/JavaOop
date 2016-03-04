@@ -11,5 +11,6 @@ public class Main {
         cat1.age = 12;
         cat1.name = "werwe";
         cat1.about();
+
     }
 }
